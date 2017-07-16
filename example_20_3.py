@@ -3,6 +3,12 @@
 '''
     20170716
     why
+    Learning:
+    文件对象提供了三个“读”方法： .read()、.readline() 和 .readlines()。
+    每种方法可以接受一个变量以限制每次读取的数据量，但它们通常不使用变量。
+    .read() 每次读取整个文件.
+    .readline()每次只读取一行.
+    .readlines()读取整个文件,自动将文件内容分析成一个行的列表
 '''
 
 from urllib import urlopen
